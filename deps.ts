@@ -6,7 +6,10 @@ export { camelCase, snakeCase } from "https://deno.land/x/case/mod.ts";
 
 export { Client as PostgresClient } from "https://raw.githubusercontent.com/deno-postgres/deno-postgres/master/mod.ts";
 
-export {
+/**
+ * export type instead of export 
+ */
+export type {
   Client as MySQLClient,
   Connection as MySQLConnection,
 } from "https://deno.land/x/mysql/mod.ts";

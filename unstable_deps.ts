@@ -6,7 +6,7 @@
  * necessary for other usage that does not require plugins/unstable deps.
  */
 
-export {
+export type {
   MongoClient as MongoDBClient,
   ClientOptions as MongoDBClientOptions,
   Database as MongoDBDatabase,
